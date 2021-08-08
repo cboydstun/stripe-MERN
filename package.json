@@ -1,0 +1,31 @@
+{
+  "name": "stripe-MERN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cboydstun/stripe-MERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cboydstun/stripe-MERN/issues"
+  },
+  "homepage": "https://github.com/cboydstun/stripe-MERN#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "stripe": "^8.168.0",
+    "uuid": "^8.3.2"
+  }
+}
